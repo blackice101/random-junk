@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    // this is the button in the middle to make it cool
     @IBAction func makeItCool(sender: AnyObject) {
         sweetnessLogo.hidden = false
         coolBG.hidden = false
@@ -33,6 +33,7 @@ class ViewController: UIViewController {
         unCoolButton.hidden = true
     }
     
+    // this is the button at the bottom to make it less cool
     @IBAction func makeItLessCool(sender: AnyObject) {
         sweetnessLogo.hidden = true
         coolBG.hidden = true
